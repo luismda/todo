@@ -14,6 +14,7 @@ iterações e chaves no React, entre outros.
 - Remover uma tarefa da lista
 - Mostrar o progresso de conclusão das tarefas
 - Salvar as tarefas no local storage do navegador para manter a listagem atual mesmo quando atualizar a página
+- Tarefas concluídas ficam sempre no final da listagem, e as novas tarefas no início
 
 #### 🧰 Linguagens e ferramentas
 - JavaScript
@@ -23,6 +24,8 @@ iterações e chaves no React, entre outros.
 - Phosphor Icons
 - UUID
 - Vite
+- GitHub Actions
+- GitHub Pages
 
 ##
 
