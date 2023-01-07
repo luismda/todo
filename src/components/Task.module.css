@@ -8,6 +8,8 @@
     border-radius: 8px;
     box-shadow: 0 0 8px var(--black-opacity-06);
     transition: border 0.1s;
+    scale: 0;
+    animation: show_task 0.1s ease forwards;
 }
 
 .completeTask {
@@ -102,6 +104,12 @@
 
 .deleteTaskButton:hover {
     color: var(--red-500);
+}
+
+@keyframes show_task {
+    100% {
+        scale: 1;
+    }
 }
 
 @media (max-width: 768px) {
