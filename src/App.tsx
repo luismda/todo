@@ -45,7 +45,7 @@ export function App() {
         isCompleted: false
       }
   
-      setTasks([...tasks, newTask])
+      setTasks([newTask, ...tasks])
   
       setTaskTitle('')
     }
@@ -60,7 +60,19 @@ export function App() {
       return task
     })
 
-    setTasks(taskListWithOneTaskChanged)
+    const taskListOrdenateByPropertyIsCompleted = taskListWithOneTaskChanged.sort((taskOne, taskTwo) => {
+      if (taskOne.isCompleted && !taskTwo.isCompleted) {
+        return 1
+      }
+
+      if (!taskOne.isCompleted && taskTwo.isCompleted) {
+        return -1
+      }
+
+      return 0
+    })
+
+    setTasks(taskListOrdenateByPropertyIsCompleted)
   }
 
   function handleDeleteTask(taskId: string) {
