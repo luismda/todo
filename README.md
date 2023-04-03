@@ -1,6 +1,6 @@
 # ToDo List 📋
 
-This ToDo is a chalange of React.js trail of Ignite program of [**Rocketseat**](https://github.com/rocketseat-education), developed in final of first module. The objective was applicate in practice the main concepts and fundamentals of React as states, imutable states, properties, components, iterations and keys of React, between others.
+This ToDo is a challenge of React.js trail of Ignite program of [**Rocketseat**](https://github.com/rocketseat-education), developed in final of first module. The objective was applicate in practice the main concepts and fundamentals of React as states, imutable states, properties, components, iterations and keys of React, between others.
 
 #### 📌 Links
 - [Figma](https://www.figma.com/file/TbOeJ3JbQwaewAo9bZ4eCx/ToDo-List-(Copy)?node-id=0%3A1&t=aKQbhr7zm2YWcEUC-0)
